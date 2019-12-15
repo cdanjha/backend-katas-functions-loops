@@ -7,13 +7,11 @@ __author__ = "cdanjha"
 def add(x, y):
     # """Add two integers. Handles negative values."""
      # your code here
-    while (y != 0):
-        addition = x & y
-        x = x ^ y
-        y = addition << 1
 
-    return add
-print(add(2, 4))
+    total = x + y
+    return total
+# when i first started this i misread the instructions and thought
+# it read "without using + or -" so thats what i did research on
 
 
 def multiply(x, y):
@@ -26,9 +24,7 @@ def multiply(x, y):
         return x
     else:
         return x + multiply(x, y - 1)
-
 print(multiply(6, -8))
-
 
 
 def power(x, n): 
@@ -60,13 +56,11 @@ print(factorial(4))
 def fibonacci(n): 
     """Compute the nth term of fibonacci sequence"""
     # your code here
-    if n==1: 
-        return 0 
-    elif n==2: 
-         return 1
-    else: 
-        return fibonacci(n-1)+fibonacci(n-2) 
-print(fibonacci(8))
+    if n == 0: return 0
+    elif n == 1: return 1
+    else: return fibonacci(n-1)+fibonacci(n-2)
+print fibonacci(8)
+
 
 
 
