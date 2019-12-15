@@ -7,6 +7,7 @@ __author__ = "cdanjha"
 def add(x, y):
     # """Add two integers. Handles negative values."""
      # your code here
+
     total = x + y
     return total
 # when i first started this i misread the instructions and thought
@@ -23,9 +24,7 @@ def multiply(x, y):
         return x
     else:
         return x + multiply(x, y - 1)
-
 print(multiply(6, -8))
-
 
 
 def power(x, n): 
@@ -61,6 +60,7 @@ def fibonacci(n):
     elif n == 1: return 1
     else: return fibonacci(n-1)+fibonacci(n-2)
 print fibonacci(8)
+
 
 
 

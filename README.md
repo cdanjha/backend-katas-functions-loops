@@ -11,7 +11,7 @@ You are provided a starter file named `main.py`, which contains an empty definit
 ### Add
 Complete the function named `add` which takes two integers and returns their sum.
  - The function should handle negative values
- - Use of built-in operators `+` is allowed.
+ - Use of built-in operators `+` and `-` is allowed.
  - Display the result of calling add(2, 4), which should be 6.
 
 ### Multiply
